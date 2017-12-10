@@ -5,7 +5,6 @@ mongoose.connect("mongodb://localhost:27017/contactlistDB", {
 
 var Schema = mongoose.Schema;
 
-
 var contactListSchema = new Schema({
     UserName:{ type: String, unique: true}  ,
     Password: String,
